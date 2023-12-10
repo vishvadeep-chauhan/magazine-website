@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    color: #ffffff;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: smaller;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #04091e;
+    height: auto;
+    width: 80%;
+    padding: 0% 10%;
+}
+
+.second-header-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    width: 80%;
+    height: auto;
+    padding: 0 10%;
+    margin: 5px 5px;
+}
+
+#ad {
+    color: #a0959580;
+
+    width: 60%;
+    border: 2px solid #4b49492b;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-div {
+    padding: 0% 10%;
+}
+
+.nav {
+    background-color: #04091e;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 0 10%; */
+    /* position: sticky; */
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.dropdown-content a {
+    background-color: rgb(233, 233, 233);
+    padding: 12px 50px;
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    border-radius: 10px;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.search-div {
+    position: relative;
+    display: inline-block;
+    padding: 3%;
+}
+
+.search-bar {
+    display: none;
+    position: absolute;
+    top: 10%;
+    right: 80%;
+    padding: 20%;
+
+}
+
+.search-bar input {
+    padding: 2%;
+}
+
+.search-div:hover .search-bar {
+    display: block;
+}
+
+
+.container {
+    height: 100%;
+    width: 98%;
+    background-color: aqua;
+    display: grid;
+    padding: 1%;
+
+}
+
+.item {
+    background-color: #fd0606;
+    border: 5px solid #000000;
+
+}
